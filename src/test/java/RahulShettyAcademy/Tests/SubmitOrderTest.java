@@ -19,6 +19,7 @@ public class SubmitOrderTest extends BaseTest{
 //	String productName = "ZARA COAT 3";
 //	String userName = "ankit86@gmail.com";
 //	String password = "Ankit@123";
+// Practice CICD Integration
 	
 	@Test (dataProvider = "getData", groups= {"PurchaseOrder"})
 	public void submitOrder(HashMap<String, String> input) throws InterruptedException  {
